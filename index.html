@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nader | Data Analyst Portfolio</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;background:#070d18;color:#f4f7fb;line-height:1.6}
+a{text-decoration:none;color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:9;background:#070d18e8;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff12}
+.nav{height:70px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:900;font-size:22px}.logo i{color:#4fc3ff;font-style:normal}
+.navlinks{display:flex;gap:24px;color:#9eabc0;font-size:14px}.navlinks a:hover{color:#fff}
+.hero{min-height:650px;display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:center}
+.pill{display:inline-block;color:#9fe0ff;border:1px solid #4fc3ff44;background:#4fc3ff0d;border-radius:99px;padding:7px 12px;font-size:12px;font-weight:800;letter-spacing:1px}
+h1{font-size:clamp(46px,6vw,74px);line-height:1.03;letter-spacing:-3px;margin:20px 0}.grad{background:linear-gradient(90deg,#4fc3ff,#9b83ff);color:transparent;background-clip:text}
+.lead{font-size:18px;color:#a7b4c7;max-width:650px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:12px 18px;border-radius:12px;border:1px solid #ffffff14;font-weight:800;font-size:14px}.primary{background:linear-gradient(135deg,#4fc3ff,#8b72ff);color:#06101b;border:0}.ghost{background:#ffffff08}
+.hero-card,.card{background:linear-gradient(145deg,#111d31,#0b1423);border:1px solid #ffffff10;border-radius:24px;box-shadow:0 20px 60px #0004}
+.hero-card{padding:30px}.avatar{height:145px;width:145px;border-radius:30px;overflow:hidden;margin-bottom:20px;border:2px solid #4fc3ff55}.avatar img{width:100%;height:100%;object-fit:cover;object-position:center 25%}
+.hero-card h2{margin:0;font-size:25px}.muted{color:#9eabc0}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:25px}.stat{background:#ffffff08;border-radius:14px;padding:13px;text-align:center}.stat b{font-size:20px;display:block}.stat small{color:#8e9bb0}
+section{padding:85px 0}.eyebrow{color:#4fc3ff;font-weight:900;font-size:12px;letter-spacing:2px;text-transform:uppercase}.title{font-size:38px;margin:5px 0 30px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{padding:27px}.card p{color:#a5b1c4}.skills{display:flex;flex-wrap:wrap;gap:9px}.skill{border:1px solid #4fc3ff2e;background:#4fc3ff0b;color:#bdeaff;padding:8px 11px;border-radius:99px;font-size:13px}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.project{padding:0;overflow:hidden}.visual{height:205px;background:#111b2c;overflow:hidden}.visual img{width:100%;height:100%;object-fit:cover;transition:.3s}.visual:hover img{transform:scale(1.04)}.project-body{padding:23px}.project h3{margin:0 0 8px;font-size:20px}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:15px 0}.tag{font-size:11px;padding:5px 8px;border-radius:7px;border:1px solid #ffffff12;color:#a9b6c8}.link{color:#4fc3ff;font-weight:800;font-size:13px}
+.steps{display:grid;gap:14px}.step{display:grid;grid-template-columns:100px 1fr;gap:18px}.step>b{color:#4fc3ff;padding-top:20px}.step .card{padding:20px}
+.contact{display:grid;grid-template-columns:1fr .8fr;gap:18px}.contactline{padding:14px 0;border-bottom:1px solid #ffffff10}.contactline:last-child{border:0}.contactline small{color:#8290a6;display:block}.contactline a{color:#bdeaff;word-break:break-word}.dash-gallery{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}.dash-gallery a{display:block}.dash-gallery img{width:100%;height:280px;object-fit:cover;border-radius:18px;border:1px solid #ffffff14;transition:.3s}.dash-gallery img:hover{transform:scale(1.015)}
+footer{text-align:center;padding:30px;border-top:1px solid #ffffff10;color:#7f8da1;font-size:13px}
+@media(max-width:850px){.hero,.grid2,.contact{grid-template-columns:1fr}.projects{grid-template-columns:1fr 1fr}.navlinks{display:none}}
+@media(max-width:560px){.projects,.dash-gallery{grid-template-columns:1fr}.hero{padding:55px 0}.step{grid-template-columns:1fr}section{padding:60px 0}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="logo" href="#top">Nader<i>.</i></a><div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#dashboards">Dashboards</a><a href="#contact">Contact</a></div></div></nav>
+
+<header id="top" class="wrap hero">
+<div>
+<span class="pill">DATA ANALYST • FUTURE DATA ENGINEER</span>
+<h1>Turning <span class="grad">data</span> into clear decisions.</h1>
+<p class="lead">I’m Nader, a Computer & AI  building practical data projects with Excel, SQL and Power BI — while developing my path toward Data Engineering.</p>
+<div class="buttons"><a class="btn primary" href="#projects">View My Projects</a><a class="btn ghost" href="#contact">Contact Me</a></div>
+</div>
+<div class="hero-card"><div class="avatar"><img src="images/profile.jpg" alt="Nader"></div><h2>Nader</h2><p class="muted">Data Analyst • Computer & AI Student</p><div class="stats"><div class="stat"><b>Excel</b><small>Analysis</small></div><div class="stat"><b>SQL</b><small>Queries</small></div><div class="stat"><b>Power BI</b><small>Dashboards</small></div></div></div>
+</header>
+
+<section id="about"><div class="wrap"><div class="eyebrow">About me</div><h2 class="title">Who I am</h2><div class="grid2"><div class="card"><p>I’m a second-year Computer & Artificial Intelligence student at South Valley University. My current focus is Data Analysis, with hands-on practice in data cleaning, KPIs, SQL and interactive Power BI dashboards.</p></div><div class="card"><p>My long-term direction is Data Engineering. I’m strengthening SQL and analytics first, then moving into databases, Python, ETL/ELT, data warehouses and data pipelines.</p></div></div></div></section>
+
+<section id="skills"><div class="wrap"><div class="eyebrow">Toolkit</div><h2 class="title">Skills & Tools</h2><div class="card"><div class="skills"><span class="skill">Excel</span><span class="skill">SQL</span><span class="skill">Power BI</span><span class="skill">DAX</span><span class="skill">Data Cleaning</span><span class="skill">Dashboard Design</span><span class="skill">Python</span><span class="skill">Git & GitHub</span><span class="skill">C++</span><span class="skill">Data Visualization</span></div></div></div></section>
+
+<section id="projects"><div class="wrap"><div class="eyebrow">Portfolio</div><h2 class="title">Featured Projects</h2><div class="projects">
+<article class="card project"><a href="images/dashboards/superstore.png" target="_blank"><div class="visual"><img src="images/dashboards/superstore.png" alt="Superstore Power BI Dashboard"></div></a><div class="project-body"><h3>Superstore Sales Analytics</h3><p>Cleaned the Superstore dataset and created business KPIs and an interactive Power BI dashboard focused on sales, profit and performance.</p><div class="tags"><span class="tag">Excel</span><span class="tag">SQL</span><span class="tag">Power BI</span><span class="tag">DAX</span></div><a class="link" href="projects/superstore.html">View project →</a></div></article>
+<article class="card project"><a href="images/dashboards/hotel.png" target="_blank"><div class="visual"><img src="images/dashboards/hotel.png" alt="Hotel Booking Power BI Dashboard"></div></a><div class="project-body"><h3>Hotel Booking Dashboard</h3><p>Power BI analysis of bookings and cancellations with KPIs, slicers and interactive visuals.</p><div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Visualization</span></div><a class="link" href="projects/hotel.html">View project →</a></div></article>
+<article class="card project"><div class="visual" style="display:grid;place-items:center;font-size:52px">🧹</div><div class="project-body"><h3>Excel Data Cleaning</h3><p>Practical workflow for duplicates, blanks, formatting, validation and preparing clean datasets for analysis.</p><div class="tags"><span class="tag">Excel</span><span class="tag">Cleaning</span><span class="tag">Quality</span></div><a class="link" href="projects/cleaning.html">View project →</a></div></article>
+</div></div></section>
+
+<section id="dashboards"><div class="wrap"><div class="eyebrow">Power BI Work</div><h2 class="title">Dashboard Gallery</h2><p class="muted">Click any dashboard to open the full-resolution image.</p><div class="dash-gallery"><a href="images/dashboards/superstore.png" target="_blank"><img src="images/dashboards/superstore.png" alt="Superstore Sales Dashboard"></a><a href="images/dashboards/hotel.png" target="_blank"><img src="images/dashboards/hotel.png" alt="Hotel Booking Dashboard"></a></div></div></section>
+
+<section><div class="wrap"><div class="eyebrow">Career Direction</div><h2 class="title">Data Analyst → Data Engineer</h2><div class="steps"><div class="step"><b>NOW</b><div class="card"><h3>Data Analysis</h3><p>Excel → Data Cleaning → SQL → Power BI → DAX → Dashboard Design.</p></div></div><div class="step"><b>NEXT</b><div class="card"><h3>Data Engineering</h3><p>Advanced SQL → Databases → Python → ETL/ELT → Data Warehouses → Pipelines.</p></div></div></div></div></section>
+
+<section id="contact"><div class="wrap"><div class="eyebrow">Contact</div><h2 class="title">Let’s connect</h2><div class="contact"><div class="card"><p>If you’re interested in my projects, collaboration or entry-level data opportunities, feel free to reach out.</p></div><div class="card">
+<div class="contactline"><small>📧 Email</small><a href="mailto:nadersayedmnsa@gmail.com">nadersayedmnsa@gmail.com</a></div>
+<div class="contactline"><small>📱 Phone</small><a href="tel:+201145009592">01145009592</a></div>
+<div class="contactline"><small>💼 LinkedIn</small><a href="https://www.linkedin.com/in/nader6/" target="_blank">linkedin.com/in/nader6</a></div>
+<div class="contactline"><small>💻 GitHub</small><a href="https://github.com/nadersayed-svg" target="_blank">github.com/nadersayed-svg</a></div>
+</div></div></div></section>
+<footer>© 2026 Nader — Data Analyst Portfolio</footer>
+</body></html>
